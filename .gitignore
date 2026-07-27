@@ -39,3 +39,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# large media files
+public/New_Banner_Images/CAM_3_FINAL_PNG.png
+public/New_Banner_Images/CAM_3_FINAL_edited.jpg
+public/logos.mp4
