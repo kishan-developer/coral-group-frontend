@@ -185,6 +185,21 @@ const AdminLayout = ({ children }: { children: React.ReactNode }) => {
 
         {/* Page content */}
         <main className="p-6">{children}</main>
+
+        {/* Footer */}
+        <footer className="border-t border-white/10 py-4 px-6">
+          <div className="flex items-center justify-between text-sm text-gray-400">
+            <span>© {new Date().getFullYear()} Coral Group. All rights reserved.</span>
+            <a 
+              href="https://www.linkedin.com/in/kishan-kumar-ray-372972234/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-white transition-colors"
+            >
+              Developed by Kishan (Full Stack Developer)
+            </a>
+          </div>
+        </footer>
       </div>
     </div>
     </ProtectedRoute>
