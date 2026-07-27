@@ -15,7 +15,9 @@ import {
   Bell,
   ChevronLeft,
   ChevronRight,
-  PenTool
+  PenTool,
+  Maximize,
+  Minimize
 } from 'lucide-react';
 import { useAuth } from '@/context/AuthContext';
 import ProtectedRoute from '@/components/ProtectedRoute';
@@ -24,9 +26,20 @@ const AdminLayout = ({ children }: { children: React.ReactNode }) => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
   const [hoveredItem, setHoveredItem] = useState<string | null>(null);
+  const [isFullscreen, setIsFullscreen] = useState(false);
   const pathname = usePathname();
   const { user, logout } = useAuth();
   const router = useRouter();
+
+  const toggleFullscreen = () => {
+    if (!document.fullscreenElement) {
+      document.documentElement.requestFullscreen();
+      setIsFullscreen(true);
+    } else {
+      document.exitFullscreen();
+      setIsFullscreen(false);
+    }
+  };
 
   const navigation = [
     { name: 'Overview', href: '/admin', icon: LayoutDashboard },
@@ -144,7 +157,7 @@ const AdminLayout = ({ children }: { children: React.ReactNode }) => {
       <div className={`transition-all duration-300 ${sidebarCollapsed ? 'lg:pl-20' : 'lg:pl-64'}`}>
         {/* Top header */}
         <header className="sticky top-0 z-30 bg-[#0f0f0f]/80 backdrop-blur-xl border-b border-white/10">
-          <div className="flex items-center justify-between px-6 py-4">
+          <div className="flex items-center justify-end px-6 py-4">
             <button
               onClick={() => setSidebarOpen(true)}
               className="lg:hidden text-gray-400 hover:text-white"
@@ -153,7 +166,16 @@ const AdminLayout = ({ children }: { children: React.ReactNode }) => {
             </button>
 
             <div className="flex items-center gap-4">
-              <button className="relative p-2 text-gray-400 hover:text-white">
+              <button 
+                onClick={toggleFullscreen}
+                className="relative p-2 text-gray-400 hover:text-white"
+              >
+                {isFullscreen ? <Minimize className="w-5 h-5" /> : <Maximize className="w-5 h-5" />}
+              </button>
+              <button 
+                onClick={() => router.push('/admin/notifications')}
+                className="relative p-2 text-gray-400 hover:text-white"
+              >
                 <Bell className="w-5 h-5" />
                 <span className="absolute top-1 right-1 w-2 h-2 bg-[#94cb3d] rounded-full" />
               </button>
