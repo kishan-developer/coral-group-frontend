@@ -136,14 +136,14 @@ export default function WebsiteLayout({
                   </h2>
                 </div>
                 <div className="address flex flex-col gap-2">
-                  <h2 className="text-ld font-semibold text-white">Contact No 
-                  <span> : (+91) 780-000-0097</span>
+                  <h2 className="text-ld font-semibold text-white">Contact No
+                    <span> : (+91) 780-000-0097</span>
                   </h2>
                 </div>
                 <div className="address flex flex-col gap-2">
-                  <h2 className="text-ld font-semibold text-white">Email 
-                  <span> : info@coral-group.in</span>
-                   </h2>
+                  <h2 className="text-ld font-semibold text-white">Email
+                    <span> : info@coral-group.in</span>
+                  </h2>
                 </div>
               </div>
 
@@ -151,7 +151,7 @@ export default function WebsiteLayout({
                 <a href="https://www.facebook.com/coralgroupoff" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-gray-700 transition">
                   <Facebook className="w-5 h-5" />
                 </a>
-                
+
                 <a href="https://www.instagram.com/coralgroupoff?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-gray-700 transition">
                   <Instagram className="w-5 h-5" />
                 </a>
@@ -175,17 +175,17 @@ export default function WebsiteLayout({
             </Link>
 
             {
-            /* <div className="flex gap-8 mt-4 md:mt-0 uppercase font-bold tracking-widest text-xs">
-              <a href="#" className="hover:text-[#94cb3d] transition-colors">Privacy Policy</a>
-              <a href="#" className="hover:text-[#94cb3d] transition-colors">Compliance</a>
-              <a href="#" className="hover:text-[#94cb3d] transition-colors">Terms of Hire</a>
-            </div> */
+              /* <div className="flex gap-8 mt-4 md:mt-0 uppercase font-bold tracking-widest text-xs">
+                <a href="#" className="hover:text-[#94cb3d] transition-colors">Privacy Policy</a>
+                <a href="#" className="hover:text-[#94cb3d] transition-colors">Compliance</a>
+                <a href="#" className="hover:text-[#94cb3d] transition-colors">Terms of Hire</a>
+              </div> */
             }
           </div>
         </footer>
 
         <a href="https://wa.me/917800000097" target="_blank" rel="noopener noreferrer" title="Chat on WhatsApp">
-          <button className="fixed bottom-[18vh] right-[5vw] z-120 hover:scale-110 transition-transform duration-300">
+          <button className="fixed bottom-[25vh] right-[4vw] z-120 hover:scale-110 transition-transform duration-300">
             <img
               // src="/Coral-Group-Logo.png"
               src="/whatsapp.png"
@@ -198,13 +198,13 @@ export default function WebsiteLayout({
         </a>
 
         <a href="tel:+917800000097" title="Call Us: 780-000-0097">
-          <button className="fixed bottom-[11vh] right-[5vw] z-120 w-[50px] h-[50px] rounded-full bg-[#94cb3d] text-black flex items-center justify-center shadow-lg hover:scale-110 hover:bg-[#7ab532] transition-all duration-300">
+          <button className="fixed bottom-[18vh] right-[4vw] z-120 w-[50px] h-[50px] rounded-full bg-[#94cb3d] text-black flex items-center justify-center shadow-lg hover:scale-110 hover:bg-[#7ab532] transition-all duration-300">
             <Phone size={24} className="fill-black text-black" />
           </button>
         </a>
 
         <Link href="#header" title="Back to Top">
-          <button className="fixed bottom-[4vh] right-[5vw] z-120 w-[50px] h-[50px] rounded-full bg-black/60 backdrop-blur-md border border-white/20 text-white flex items-center justify-center hover:bg-[#94cb3d] hover:text-black transition-all duration-300">
+          <button className="fixed bottom-[11vh] right-[4vw] z-120 w-[50px] h-[50px] rounded-full bg-black/60 backdrop-blur-md border border-white/20 text-white flex items-center justify-center hover:bg-[#94cb3d] hover:text-black transition-all duration-300">
             <ArrowUpNarrowWideIcon size={24} />
           </button>
         </Link>
