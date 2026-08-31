@@ -92,7 +92,7 @@ export const verticals: Vertical[] = [
         images: ["/slider/coral_skyline.jpeg", "/slider/coral_skyline2.jpeg", "/slider/coral_skyline3.jpeg", "/slider/coral_skyline4.jpeg"]
       },
       {
-        name: "Coral Studio",
+        name: "Coral Studios",
         location: "Harahua, Varanasi",
         type: "Residential",
         description: "Smart 1 & 2 BHK studios with modern interiors, smart home features, and prime location. Perfect for young professionals and small families.",
@@ -146,7 +146,7 @@ export const verticals: Vertical[] = [
       { name: "Rajesh Kumar", role: "Homeowner - Coral Skyline", content: "The quality of construction and attention to detail is exceptional. Coral Greens Buildtech delivered exactly what they promised - a dream home with all modern amenities.", rating: 5 },
       { name: "Priya Singh", role: "Property Investor", content: "Best investment decision I made. The location, amenities, and appreciation potential are outstanding. Highly recommend Coral Greens Buildtech for anyone looking for quality real estate.", rating: 5 },
       { name: "Amit Verma", role: "Business Owner - Coral Commercial Hub", content: "Modern design, smart features, and excellent customer service. The commercial space has exceeded our expectations for our business operations.", rating: 5 },
-      { name: "Sneha Gupta", role: "Homeowner - Coral Studio", content: "Perfect for young professionals like us. The smart home features and prime location make it an ideal choice. The team was very supportive throughout the process.", rating: 5 },
+      { name: "Sneha Gupta", role: "Homeowner - Coral Studios", content: "Perfect for young professionals like us. The smart home features and prime location make it an ideal choice. The team was very supportive throughout the process.", rating: 5 },
       { name: "Dr. Rajendra Prasad", role: "Real Estate Consultant", content: "Coral Greens Buildtech sets the benchmark for transparency and quality in Varanasi's real estate market. Their projects are well-planned and delivered on time.", rating: 5 }
     ],
     awards: [

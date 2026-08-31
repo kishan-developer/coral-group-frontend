@@ -3,7 +3,7 @@ import { Project } from '../projects';
 export const coralStudio: Project = {
   id: "03",
   slug: "coral-studio",
-  title: "Coral Studio",
+  title: "Coral Studios",
   category: "First time ever in Varanasi",
   type: "FULLY FURNISHED* STUDIO APARTMENTS",
   location: "Harahua Varanasi, U.P. 221010, India",
@@ -17,9 +17,9 @@ export const coralStudio: Project = {
   status: "Ongoing",
   reraNumber: "UPRERAPRJ369951/03/2026",
   promoterReraNumber: "UPRERAPRM311099",
-  description: "Welcome to a thoughtfully designed living space where comfort meets contemporary style. Coral Studio offers fully furnished* studio residences crafted for modern urban lifestyles — ideal for professionals, investors, and individuals seeking a hassle-free living experience. Every detail is designed to deliver convenience, functionality, and elegance in one compact yet luxurious space.",
+  description: "Welcome to a thoughtfully designed living space where comfort meets contemporary style. Coral Studios offers fully furnished* studio residences crafted for modern urban lifestyles — ideal for professionals, investors, and individuals seeking a hassle-free living experience. Every detail is designed to deliver convenience, functionality, and elegance in one compact yet luxurious space.",
 
-  detailedDescription:"Coral Studio is a modern residential and commercial development designed around intelligent space planning, seamless functionality, refined aesthetics, and everyday convenience. The project offers fully furnished studio apartments, spacious 1 BHK residences, commercial spaces, lifestyle amenities, and smart parking facilities in a well-connected Harahua Varanasi.",
+  detailedDescription:"Coral Studios is a modern residential and commercial development designed around intelligent space planning, seamless functionality, refined aesthetics, and everyday convenience. The project offers fully furnished studio apartments, spacious 1 BHK residences, commercial spaces, lifestyle amenities, and smart parking facilities in a well-connected Harahua Varanasi.",
 
   features: [
     "Fully furnished studio apartments",
@@ -54,7 +54,7 @@ export const coralStudio: Project = {
   designPhilosophy: {
     title: "A Perfect Balance of Efficiency and Elegance",
     description:
-      "At Coral Studio, space is not limited—it is intelligently designed. Every element is carefully curated to deliver seamless functionality, refined aesthetics, and effortless living."
+      "At Coral Studios, space is not limited—it is intelligently designed. Every element is carefully curated to deliver seamless functionality, refined aesthetics, and effortless living."
   },
 
   unitTypes: [

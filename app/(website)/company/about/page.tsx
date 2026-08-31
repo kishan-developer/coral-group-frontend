@@ -164,7 +164,7 @@ const App = () => {
         },
         {
             year: "2026",
-            title: "Coral-Studio",
+            title: "Coral-Studios",
             desc: "Launching a specialized studio focused on future-ready architectural and interior design."
         },
     ];

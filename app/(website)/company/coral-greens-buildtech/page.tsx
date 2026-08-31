@@ -266,13 +266,13 @@ export default function CoralGreensBuildtech() {
                 <div className="relative h-[400px] overflow-hidden">
                   <img
                     src="/slider/coral_studio.jpeg"
-                    alt="Coral Studio"
+                    alt="Coral Studios"
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent" />
                 </div>
                 <div className="absolute bottom-0 left-0 p-8 w-full">
-                  <h4 className="text-3xl font-bold mb-2 uppercase">Coral Studio</h4>
+                  <h4 className="text-3xl font-bold mb-2 uppercase">Coral Studios</h4>
                   <p className="text-[#94cb3d] text-sm font-medium tracking-widest uppercase mb-4">Smart Living Spaces</p>
                   <p className="text-gray-300 text-sm mb-6 leading-relaxed">
                     A vision for smart, compact, and efficient living spaces ideal for young professionals, entrepreneurs, and real estate investors. Designed with flexibility in mind.

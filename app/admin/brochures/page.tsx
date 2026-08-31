@@ -17,7 +17,7 @@ import {
   FileText
 } from 'lucide-react';
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:2000/api/v1';
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL;
 
 interface BrochureRequest {
   _id: string;
@@ -210,7 +210,7 @@ export default function BrochuresPage() {
           >
             <option value="">All Brochures</option>
             <option value="coral-skyline">Coral Skyline</option>
-            <option value="coral-studio">Coral Studio</option>
+            <option value="coral-studio">Coral Studios</option>
             <option value="coral-garden">Coral Garden</option>
             <option value="brochure-access">Brochure Access</option>
           </select>

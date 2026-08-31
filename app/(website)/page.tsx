@@ -40,7 +40,7 @@ const projects: Project[] = [
   },
   {
     id: "02",
-    title: "Coral Studio",
+    title: "Coral Studios",
     category: "First time ever in Varanasi",
     type: "FULLY FURNISHED* STUDIO APARTMENTS",
     location: "Site Office - Arazi No. 194,195,196 Mauza Dhanesari, Harahua Varanasi, U.P. 221010, India",

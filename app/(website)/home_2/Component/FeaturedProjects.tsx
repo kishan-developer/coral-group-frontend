@@ -35,7 +35,7 @@ const projects: Project[] = [
   },
   {
     id: "03",
-    title: "Coral Studio",
+    title: "Coral Studios",
     Configuration: "First time ever in Varanasi", // First time ever in Varanasi
     type: "FULLY FURNISHED* STUDIO APARTMENTS", // FULLY FURNISHED* STUDIO APARTMENTS
     Status :"Ongoing",

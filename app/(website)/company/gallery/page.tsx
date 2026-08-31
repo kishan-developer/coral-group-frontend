@@ -86,7 +86,7 @@ const Page = () => {
         // Highlights
         // { id: 60, category: "Highlights", title: "Project Banner", size: "wide", img: "/slider/Banner.jpg" },
         // { id: 61, category: "Highlights", title: "Coral Skyline", size: "small", img: "/slider/coral_skyline.jpeg" },
-        { id: 62, category: "Highlights", title: "Coral Studio", size: "tall", img: "/slider/coral_studio.jpeg" },
+        { id: 62, category: "Highlights", title: "Coral Studios", size: "tall", img: "/slider/coral_studio.jpeg" },
         // { id: 63, category: "Highlights", title: "Modern Architecture", size: "small", img: "/slider/5.jpg" },
         { id: 64, category: "Highlights", title: "Interior Concept", size: "wide", img: "/slider/CAM_11_Final.jpg" },
 
