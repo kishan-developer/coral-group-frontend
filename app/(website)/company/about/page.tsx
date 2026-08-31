@@ -108,7 +108,7 @@ const App = () => {
         },
         {
             title: "Coral Innovations",
-            desc: "Bespoke services including Coral Interio, Skyline architecture, and Studio design.",
+            desc: "Bespoke services including Coral Interio, Skyline architecture, and Studios design.",
             icon: Zap
         },
     ];
@@ -165,7 +165,7 @@ const App = () => {
         {
             year: "2026",
             title: "Coral-Studios",
-            desc: "Launching a specialized studio focused on future-ready architectural and interior design."
+            desc: "Launching specialized studios focused on future-ready architectural and interior design."
         },
     ];
 

@@ -46,7 +46,7 @@ export interface Project {
 }
 
 import { coralSkyline } from './projects/coral-skyline';
-import { coralStudio } from './projects/coral-studio';
+import { coralStudios } from './projects/coral-studios';
 
 export const projects: Project[] = [
   // {
@@ -207,5 +207,5 @@ export const projects: Project[] = [
   //   ]
   // },
   coralSkyline,
-  coralStudio
+  coralStudios
 ];

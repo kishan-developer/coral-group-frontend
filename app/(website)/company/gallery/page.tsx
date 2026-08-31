@@ -66,7 +66,7 @@ const Page = () => {
         { id: 21, category: "Infrastructure", title: "Skyline Phase 1", size: "small", img: "/property/SK1.jpg" },
         { id: 22, category: "Infrastructure", title: "Skyline Phase 2", size: "tall", img: "/property/SK2.jpg" },
         { id: 23, category: "Infrastructure", title: "Skyline Phase 3", size: "small", img: "/property/SK3.jpg" },
-        { id: 24, category: "Infrastructure", title: "Studio Complex", size: "wide", img: "/property/SK4.jpg" },
+        { id: 24, category: "Infrastructure", title: "Studios Complex", size: "wide", img: "/property/SK4.jpg" },
 
         // Corporate
         { id: 30, category: "Corporate", title: "Main Reception", size: "wide", img: "/Office/AMN_4991.jpeg" },

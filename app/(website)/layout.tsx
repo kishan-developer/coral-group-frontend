@@ -5,7 +5,7 @@ import Footer from "../Components/Layout/Footer";
 import Transparent_Header from "../Components/Layout/Transparent_Header";
 import { ThemeProvider } from "next-themes";
 import BookNowButton from "../Components/Layout/Model/BookNowButton";
-import { ArrowUp01, ArrowUpNarrowWide, ArrowUpNarrowWideIcon, Facebook, Instagram, Linkedin, LocationEdit, Twitter, Youtube } from "lucide-react";
+import { ArrowUp01, ArrowUpNarrowWide, ArrowUpNarrowWideIcon, Facebook, Instagram, Linkedin, LocationEdit, Twitter, Youtube, Phone } from "lucide-react";
 import Link from "next/link";
 
 const montserrat = ({
@@ -184,8 +184,8 @@ export default function WebsiteLayout({
           </div>
         </footer>
 
-        <a href="https://wa.me/917800000097" target="_blank" rel="noopener noreferrer">
-          <button className="fixed bottom-[18vh] right-[5vw] z-120">
+        <a href="https://wa.me/917800000097" target="_blank" rel="noopener noreferrer" title="Chat on WhatsApp">
+          <button className="fixed bottom-[18vh] right-[5vw] z-120 hover:scale-110 transition-transform duration-300">
             <img
               // src="/Coral-Group-Logo.png"
               src="/whatsapp.png"
@@ -197,9 +197,15 @@ export default function WebsiteLayout({
           </button>
         </a>
 
-        <Link href="#header">
-          <button className="fixed bottom-[14vh] text-[40px] right-[6vw] z-120">
-            <ArrowUpNarrowWideIcon className="text-white " />
+        <a href="tel:+917800000097" title="Call Us: 780-000-0097">
+          <button className="fixed bottom-[11vh] right-[5vw] z-120 w-[50px] h-[50px] rounded-full bg-[#94cb3d] text-black flex items-center justify-center shadow-lg hover:scale-110 hover:bg-[#7ab532] transition-all duration-300">
+            <Phone size={24} className="fill-black text-black" />
+          </button>
+        </a>
+
+        <Link href="#header" title="Back to Top">
+          <button className="fixed bottom-[4vh] right-[5vw] z-120 w-[50px] h-[50px] rounded-full bg-black/60 backdrop-blur-md border border-white/20 text-white flex items-center justify-center hover:bg-[#94cb3d] hover:text-black transition-all duration-300">
+            <ArrowUpNarrowWideIcon size={24} />
           </button>
         </Link>
 

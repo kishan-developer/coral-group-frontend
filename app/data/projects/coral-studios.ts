@@ -1,28 +1,28 @@
 import { Project } from '../projects';
 
-export const coralStudio: Project = {
+export const coralStudios: Project = {
   id: "03",
-  slug: "coral-studio",
+  slug: "coral-studios",
   title: "Coral Studios",
   category: "First time ever in Varanasi",
-  type: "FULLY FURNISHED* STUDIO APARTMENTS",
+  type: "FULLY FURNISHED* STUDIOS APARTMENTS",
   location: "Harahua Varanasi, U.P. 221010, India",
   fullAddress: "Harahua Varanasi, U.P. 221010, India",
   image: "/slider/coral_studio.jpeg",
   video:"https://youtu.be/nuwOCukB2g0?si=DdlRgK82F49G-DWE",
 
 
-  configuration:"Fully Furnished Studio Apartments | 1 BHK Apartments | Commercial Spaces",
+  configuration:"Fully Furnished Studios Apartments | 1 BHK Apartments | Commercial Spaces",
   area: "385–1,195 sq.ft.",
   status: "Ongoing",
   reraNumber: "UPRERAPRJ369951/03/2026",
   promoterReraNumber: "UPRERAPRM311099",
-  description: "Welcome to a thoughtfully designed living space where comfort meets contemporary style. Coral Studios offers fully furnished* studio residences crafted for modern urban lifestyles — ideal for professionals, investors, and individuals seeking a hassle-free living experience. Every detail is designed to deliver convenience, functionality, and elegance in one compact yet luxurious space.",
+  description: "Welcome to a thoughtfully designed living space where comfort meets contemporary style. Coral Studios offers fully furnished* studios residences crafted for modern urban lifestyles — ideal for professionals, investors, and individuals seeking a hassle-free living experience. Every detail is designed to deliver convenience, functionality, and elegance in one compact yet luxurious space.",
 
-  detailedDescription:"Coral Studios is a modern residential and commercial development designed around intelligent space planning, seamless functionality, refined aesthetics, and everyday convenience. The project offers fully furnished studio apartments, spacious 1 BHK residences, commercial spaces, lifestyle amenities, and smart parking facilities in a well-connected Harahua Varanasi.",
+  detailedDescription:"Coral Studios is a modern residential and commercial development designed around intelligent space planning, seamless functionality, refined aesthetics, and everyday convenience. The project offers fully furnished studios apartments, spacious 1 BHK residences, commercial spaces, lifestyle amenities, and smart parking facilities in a well-connected Harahua Varanasi.",
 
   features: [
-    "Fully furnished studio apartments",
+    "Fully furnished studios apartments",
     "Thoughtfully designed 1 BHK apartments",
     "Modern commercial spaces",
     "Intelligent and efficient space planning",
@@ -59,16 +59,16 @@ export const coralStudio: Project = {
 
   unitTypes: [
     {
-      type: "Studio Apartment",
+      type: "Studios Apartment",
       size: "From 385 sq.ft.",
       description:
-        "A compact, intelligently planned studio residence featuring a living and sleeping area, private bathroom, storage, and balcony in selected layouts."
+        "A compact, intelligently planned studios residence featuring a living and sleeping area, private bathroom, storage, and balcony in selected layouts."
     },
     {
-      type: "Large Studio Apartment",
+      type: "Large Studios Apartment",
       size: "Up to 1,195 sq.ft.",
       description:
-        "A spacious studio configuration offering generous living space, dining provision, dressing area, bathroom, and an expansive balcony."
+        "A spacious studios configuration offering generous living space, dining provision, dressing area, bathroom, and an expansive balcony."
     },
     {
       type: "1 BHK Apartment",
@@ -128,3 +128,5 @@ export const coralStudio: Project = {
 
   timeline: []
 };
+
+export const coralStudio = coralStudios;

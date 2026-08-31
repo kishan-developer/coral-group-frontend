@@ -210,7 +210,7 @@ export default function BrochuresPage() {
           >
             <option value="">All Brochures</option>
             <option value="coral-skyline">Coral Skyline</option>
-            <option value="coral-studio">Coral Studios</option>
+            <option value="coral-studios">Coral Studios</option>
             <option value="coral-garden">Coral Garden</option>
             <option value="brochure-access">Brochure Access</option>
           </select>

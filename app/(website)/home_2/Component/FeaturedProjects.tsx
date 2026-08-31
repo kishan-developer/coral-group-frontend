@@ -15,49 +15,53 @@ interface Project {
   Average_Price: string;
   Unit_Size: string;
   RERA_ID: string;
-  
+  project_url: string;
+
 }
 
 const projects: Project[] = [
-  
+
   {
     id: "02",
     title: "Coral Skyline",
     Configuration: "Luxury Living Made Affordable",  //Luxury Living Made Affordable
     type: "2,3 BHK FLATS AND 4 BHK SKY VILLAS", // 2,3 BHK FLATS AND 4 BHK SKY VILLAS
-    Status :"Ongoing",
-    Total_Project_Area :"~2 Acres",
+    Status: "Ongoing",
+    Total_Project_Area: "~2 Acres",
     Average_Price: "₹2.15 Cr onwards(approx.)",
     Unit_Size: "~5200 sq.ft",
     RERA_ID: "UPRERAPRJ7213",
-     location: "Opp. Toyota Showroom Rohaniya, Mohansarai Varanasi, U.P 221002, India",
+    location: "Opp. Toyota Showroom Rohaniya, Mohansarai Varanasi, U.P 221002, India",
     image: "/slider/coral_skyline.jpeg",
+    project_url: "/company/projects/coral-skyline/"
   },
   {
     id: "03",
     title: "Coral Studios",
     Configuration: "First time ever in Varanasi", // First time ever in Varanasi
-    type: "FULLY FURNISHED* STUDIO APARTMENTS", // FULLY FURNISHED* STUDIO APARTMENTS
-    Status :"Ongoing",
-    Total_Project_Area :"2 Acres",
+    type: "FULLY FURNISHED* STUDIOS APARTMENTS", // FULLY FURNISHED* STUDIO APARTMENTS
+    Status: "Ongoing",
+    Total_Project_Area: "2 Acres",
     Average_Price: "₹2.15 Cr onwards(approx.)",
     Unit_Size: "5200 sq.ft",
     RERA_ID: "UPRERAPRJ7213",
-     location: "Harahua Varanasi, U.P. 221010, India",
+    location: "Harahua Varanasi, U.P. 221010, India",
     image: "/slider/coral_studio.jpeg",
+    project_url: "/company/projects/coral-studios/"
   },
   {
     id: "01",
     title: "Coral Garden",
     Configuration: "4 BHK Villas",
     type: "Residential Villas",
-    Status :"Sold Out",
-    Total_Project_Area :"~2 Acres",
+    Status: "Sold Out",
+    Total_Project_Area: "~2 Acres",
     Average_Price: "₹2.15 Cr onwards(approx.)",
     Unit_Size: "~5200 sq.ft",
     RERA_ID: "UPRERAPRJ7213",
     location: "Babatpur, Varanasi, Uttar Pradesh – 221006",
     image: "/property/coral_garden.jpg",
+    project_url: "/company/projects/coral-garden/"
   },
 ];
 
@@ -129,6 +133,7 @@ export default function FeaturedProjects() {
               variants={card}
               whileHover={{ scale: 1.02 }}
               className="group relative overflow-hidden"
+              onClick={() => window.location.href = project.project_url}
             >
               {/* IMAGE */}
               <div className="relative h-[280px] md:h-[360px] w-full overflow-hidden">
@@ -145,10 +150,10 @@ export default function FeaturedProjects() {
               {/* CONTENT */}
               <div className="absolute bottom-0 left-0 p-6 w-full">
 
-                <button className={`top-5 left-5 text-black font-bold px-4 py-2 rounded-lg text-sm font-medium mb-3 ${project.Status === 'Sold Out' ? 'bg-red-500 text-white'  : 'bg-[#94cb3d]'}`}>
+                <span className={`inline-block top-5 left-5 text-black font-bold px-4 py-2 rounded-lg text-sm font-medium mb-3 cursor-default ${project.Status === 'Sold Out' ? 'bg-red-500 text-white' : 'bg-[#94cb3d]'}`}>
                   {project.Status}
-                </button>
-                
+                </span>
+
                 <div className="flex items-center gap-4 mb-3">
                   <span className="border border-[#94cb3d]/50 text-xs px-3 py-1 text-[#94cb3d] capitalize">
                     {project.Configuration}

@@ -139,7 +139,7 @@ export default function ContactSection() {
             <FileText size={16} /> Download Coral Skyline
           </button>
           <button
-            onClick={() => handleBrochureClick("coral-studio", "Coral Studios")}
+            onClick={() => handleBrochureClick("coral-studios", "Coral Studios")}
             className="px-8 py-3 text-sm font-medium border border-[#94cb3d]/50 text-[#94cb3d] hover:bg-[#94cb3d]/10 transition flex items-center gap-2"
           >
             <FileText size={16} /> Download Coral Studios

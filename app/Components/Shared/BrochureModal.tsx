@@ -69,7 +69,7 @@ export default function BrochureModal({ isOpen, onClose, brochureType, brochureT
     // Use Google Drive direct download URLs
     const pdfUrls: Record<string, string> = {
       "coral-skyline": "https://drive.google.com/uc?export=download&id=1IVD8q__Io08TimlRurNrIQgsMhhsEOCJ",
-      "coral-studio": "https://drive.google.com/uc?export=download&id=1gz_gOW2VrNpEwvyMUqUuXtmJyGCZB34R",
+      "coral-studios": "https://drive.google.com/uc?export=download&id=1gz_gOW2VrNpEwvyMUqUuXtmJyGCZB34R",
       "coral-garden": "https://drive.google.com/uc?export=download&id=1IVD8q__Io08TimlRurNrIQgsMhhsEOCJ",
     };
 

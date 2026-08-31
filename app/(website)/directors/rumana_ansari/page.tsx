@@ -49,7 +49,7 @@ export default function page() {
     { img: "/Gallery/AMN_4972.jpeg", title: "Emporio Textile Series" },
     { img: "/Beach/AMN_4957-3.jpeg", title: "Sustainable Site Visit" },
     { img: "/property/SK2.jpg", title: "Eco-Luxury Masterplan" },
-    { img: "/Office/AMN_4991.jpeg", title: "Design Studio" },
+    { img: "/Office/AMN_4991.jpeg", title: "Design Studios" },
     { img: "/Founders/rumana_ansari.jpg", title: "Creative Keynote" },
     { img: "/Beach/AMN_4957-2.jpeg", title: "Artisan Workshop" },
     { img: "/property/SK1.jpg", title: "Green Landmark" },

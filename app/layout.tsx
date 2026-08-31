@@ -44,7 +44,7 @@ export default function RootLayout({
         <ReduxProvider>
           <AuthProvider>
             <ThemeProvider>
-              <CustomCursor />
+              {/* <CustomCursor /> */}
               {children}
               <Toaster position="top-right" />
             </ThemeProvider>

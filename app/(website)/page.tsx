@@ -25,7 +25,8 @@ interface Project {
   category: string;
   type: string;
   location: string;
-  image: string; 
+  image: string;
+  project_url: string;
 }
 
 const projects: Project[] = [
@@ -36,15 +37,17 @@ const projects: Project[] = [
     type: "2,3 BHK FLATS AND 4 BHK SKY VILLAS",
     location: "SITE OFFICE: Arazi No. 3113 Opp. Toyota Showroom Rohaniya, Mohansarai Varanasi, U.P 221002, India",
     image: "/slider/coral_skyline.jpeg",
+    project_url: "/company/projects/coral-skyline/"
 
   },
   {
     id: "02",
     title: "Coral Studios",
     category: "First time ever in Varanasi",
-    type: "FULLY FURNISHED* STUDIO APARTMENTS",
+    type: "FULLY FURNISHED* STUDIOS APARTMENTS",
     location: "Site Office - Arazi No. 194,195,196 Mauza Dhanesari, Harahua Varanasi, U.P. 221010, India",
     image: "/slider/coral_studio.jpeg",
+    project_url: "/company/projects/coral-studios/"
   },
 
 ];
@@ -216,7 +219,7 @@ export default function Home() {
                           className="group relative overflow-hidden rounded-xl bg-[#1a1a1a] border border-white/5 hover:border-[#94cb3d]/40 transition-all duration-300"
                         >
                           <div className="relative h-[200px] w-full overflow-hidden">
-                            <img src={project.image} alt={project.title} className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-75 group-hover:opacity-95" />
+                            <img onClick={() => window.location.href = project.project_url} src={project.image} alt={project.title} className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-75 group-hover:opacity-95" />
                             <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent" />
                             <span className="absolute top-4 right-4 text-5xl font-serif text-white/10 font-bold">{project.id}</span>
                             <span className="absolute bottom-4 left-4 bg-[#94cb3d] text-black text-[10px] font-black px-3 py-1 rounded-full uppercase tracking-wider">{project.category}</span>
@@ -225,15 +228,26 @@ export default function Home() {
                             <h3 className="text-lg font-black text-white uppercase tracking-tight mb-1">{project.title}</h3>
                             <p className="text-xs text-gray-500 mb-3 uppercase tracking-wider">{project.type}</p>
                             <div className="flex items-center gap-2 text-gray-500 mb-5">
-                              <MapPin size={13} className="text-[#94cb3d]" />
+                              <MapPin size={16} className="text-[#94cb3d]" />
                               <span className="text-xs">{project.location}</span>
                             </div>
-                            <button
-                              onClick={() => handleEnquire(project)}
-                              className="inline-flex items-center gap-2 bg-[#94cb3d] hover:bg-[#7ab532] text-black px-5 py-2.5 rounded-xl transition-all text-xs font-black uppercase tracking-widest"
-                            >
-                              Get In Touch <ArrowUpRight size={14} />
-                            </button>
+
+
+                            <div className="flex gap-4">
+                              <button
+                                onClick={() => handleEnquire(project)}
+                                className="inline-flex items-center gap-2 bg-[#94cb3d] hover:bg-[#7ab532] text-black px-5 py-2.5 rounded-xl transition-all text-xs font-black uppercase tracking-widest"
+                              >
+                                Get In Touch <ArrowUpRight size={14} />
+                              </button>
+
+                              <button
+                                onClick={() => window.location.href = project.project_url}
+                                className="inline-flex items-center gap-2 bg-[#94cb3d] hover:bg-[#7ab532] text-black px-5 py-2.5 rounded-xl transition-all text-xs font-black uppercase tracking-widest"
+                              >
+                                Explore Now <ArrowUpRight size={14} />
+                              </button>
+                            </div>
                           </div>
                         </motion.div>
                       ))}

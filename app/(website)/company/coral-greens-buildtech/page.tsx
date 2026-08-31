@@ -280,7 +280,7 @@ export default function CoralGreensBuildtech() {
                   <div className="space-y-2">
                     <div className="flex items-center gap-2 text-sm text-gray-400">
                       <CheckCircle2 size={16} className="text-[#94cb3d]" />
-                      <span>Smart studio layouts</span>
+                      <span>Smart studios layouts</span>
                     </div>
                     <div className="flex items-center gap-2 text-sm text-gray-400">
                       <CheckCircle2 size={16} className="text-[#94cb3d]" />
