@@ -184,31 +184,33 @@ export default function WebsiteLayout({
           </div>
         </footer>
 
-        <a href="https://wa.me/917800000097" target="_blank" rel="noopener noreferrer" title="Chat on WhatsApp">
-          <button className="fixed bottom-[25vh] right-[4vw] z-120 hover:scale-110 transition-transform duration-300">
-            <img
-              // src="/Coral-Group-Logo.png"
-              src="/whatsapp.png"
-              width={50}
-              height={50}
-              alt="logo"
-              className=""
-            />
-          </button>
-        </a>
+        <div className="fixed flex flex-col gap-4 bottom-0 right-0 z-50">
+          <a href="https://wa.me/917800000097" target="_blank" rel="noopener noreferrer" title="Chat on WhatsApp">
+            <button className="fixed bottom-[25vh] right-[4vw] z-120 hover:scale-110 transition-transform duration-300">
+              <img
+                // src="/Coral-Group-Logo.png"
+                src="/whatsapp.png"
+                width={50}
+                height={50}
+                alt="logo"
+                className=""
+              />
+            </button>
+          </a>
 
-        <a href="tel:+917800000097" title="Call Us: 780-000-0097">
-          <button className="fixed bottom-[18vh] right-[4vw] z-120 w-[50px] h-[50px] rounded-full bg-[#94cb3d] text-black flex items-center justify-center shadow-lg hover:scale-110 hover:bg-[#7ab532] transition-all duration-300">
-            <Phone size={24} className="fill-black text-black" />
-          </button>
-        </a>
+          <a href="tel:+917800000097" title="Call Us: 780-000-0097">
+            <button className="fixed bottom-[18vh] right-[4vw] z-120 w-[50px] h-[50px] rounded-full bg-[#94cb3d] text-black flex items-center justify-center shadow-lg hover:scale-110 hover:bg-[#7ab532] transition-all duration-300">
+              <Phone size={24} className="fill-black text-black" />
+            </button>
+          </a>
 
-        <Link href="#header" title="Back to Top">
-          <button className="fixed bottom-[11vh] right-[4vw] z-120 w-[50px] h-[50px] rounded-full bg-black/60 backdrop-blur-md border border-white/20 text-white flex items-center justify-center hover:bg-[#94cb3d] hover:text-black transition-all duration-300">
-            <ArrowUpNarrowWideIcon size={24} />
-          </button>
-        </Link>
+          <Link href="#header" title="Back to Top">
+            <button className="fixed bottom-[11vh] right-[4vw] z-120 w-[50px] h-[50px] rounded-full bg-black/60 backdrop-blur-md border border-white/20 text-white flex items-center justify-center hover:bg-[#94cb3d] hover:text-black transition-all duration-300">
+              <ArrowUpNarrowWideIcon size={24} />
+            </button>
+          </Link>
 
+        </div>
       </body>
     </html >
   );

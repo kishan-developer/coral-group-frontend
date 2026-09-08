@@ -125,20 +125,20 @@ export default function HeroSlider() {
 
           <p className="text-[#94cb3d] font-bold tracking-[0.3em] uppercase text-sm mb-2">Coral-Group</p>
 
-        <h1 className="text-white text-xl sm:text-2xl md:text-3xl lg:text-5xl font-semibold tracking-wide mb-4 leading-tight">
+        <h1 className="text-white text-xl sm:text-2xl md:text-2xl lg:text-3xl font-semibold tracking-wide mb-4 leading-tight">
           {slides[current].title}
         </h1>
 
         <div className="flex">
           <p className="text-gray-200
-            text-sm sm:text-base md:text-xl max-w-xl">
+            text-sm sm:text-base md:text-lg max-w-xl">
             {slides[current].desc}
           </p>
         </div>
 
         {slides[current].pointer && (
           <ul className="text-gray-300
-            text-sm sm:text-base md:text-lg max-w-xl">
+            text-sm sm:text-base md:text-md max-w-xl">
             {slides[current].pointer.map((pointer, index) => (
               <li key={index} className="list-disc flex items-center gap-2"><Dot className="w-10 h-10" /> {pointer}</li>
             ))}
@@ -147,18 +147,18 @@ export default function HeroSlider() {
 
         {/* buttons */}
         <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-          <a href="/contact" className="flex items-center justify-center gap-2 bg-[#94cb3d] text-black px-8 py-3 text-sm font-medium hover:opacity-90 transition">
+          <a href="/contact" className="flex items-center justify-center gap-2 bg-[#94cb3d] text-black px-3 py-3 text-sm font-medium hover:opacity-90 transition">
             Contact Coral Group <ArrowRight size={16} />
           </a>
           <button
             onClick={() => handleBrochureClick("coral-skyline", "Coral Skyline")}
-            className="px-4 py-3 text-sm font-medium border border-[#94cb3d]/50 text-[#94cb3d] hover:bg-[#94cb3d]/10 transition flex items-center gap-2"
+            className="px-3 py-3 text-sm font-medium border border-[#94cb3d]/50 text-[#94cb3d] hover:bg-[#94cb3d]/10 transition flex items-center gap-2"
           >
             <FileText size={16} /> Download Coral Skyline
           </button>
           <button
             onClick={() => handleBrochureClick("coral-studios", "Coral Studios")}
-            className="px-4 py-3 text-sm font-medium border border-[#94cb3d]/50 text-[#94cb3d] hover:bg-[#94cb3d]/10 transition flex items-center gap-2"
+            className="px-3 py-3 text-sm font-medium border border-[#94cb3d]/50 text-[#94cb3d] hover:bg-[#94cb3d]/10 transition flex items-center gap-2"
           >
             <FileText size={16} /> Download Coral Studios
           </button>
