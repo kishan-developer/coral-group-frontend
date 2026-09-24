@@ -115,16 +115,16 @@ export default function Transparent_Header() {
 
             <div className="hidden header text-white h-10 w-full md:flex items-center justify-around text-sm px-4">
                 <div className="flex gap-4 mt-6">
-                    <a href="https://www.facebook.com/coralgroupoff" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-gray-700 transition">
+                    <a href="https://www.facebook.com/coralgroupoff" className="w-10 h-10 bg-[#94cc3c]/70 rounded-lg flex items-center justify-center bg-[#94cc3c]/50 transition">
                         <Facebook className="w-5 h-5" />
                     </a>
-                    <a href="https://www.instagram.com/coralgroupoff?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-gray-700 transition">
+                    <a href="https://www.instagram.com/coralgroupoff?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className="w-10 h-10 bg-[#94cc3c]/70 rounded-lg flex items-center justify-center bg-[#94cc3c]/50 transition">
                         <Instagram className="w-5 h-5" />
                     </a>
-                    <a href="https://www.linkedin.com/company/coralgroupoff/posts/?feedView=all" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-gray-700 transition">
+                    <a href="https://www.linkedin.com/company/coralgroupoff/posts/?feedView=all" className="w-10 h-10 bg-[#94cc3c]/70 rounded-lg flex items-center justify-center bg-[#94cc3c]/50 transition">
                         <Linkedin className="w-5 h-5" />
                     </a>
-                    <a href="https://www.youtube.com/@CoralGroupVns" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-gray-700 transition">
+                    <a href="https://www.youtube.com/@CoralGroupVns" className="w-10 h-10 bg-[#94cc3c]/70 rounded-lg flex items-center justify-center bg-[#94cc3c]/50 transition">
                         <Youtube className="w-5 h-5" />
                     </a>
                 </div>
@@ -168,16 +168,7 @@ export default function Transparent_Header() {
                                 <Expand className="w-5 h-5" />
                             )}
                         </button>
-                        {/* <Link
-                            href="/login"
-                            className="text-white hover:text-[#94cb3d] "
-                        >
-                            (+91) 780-000-0097
-                        </Link>
-
-                        <button className="bg-[#94cb3d] text-white px-5 py-2 rounded-lg  hover:bg-[#94cb3d] transition">
-                            GET IN TOUCH
-                        </button> */}
+                       
                     </div>
 
                     {/* Mobile Menu Button */}

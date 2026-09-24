@@ -174,8 +174,8 @@ export default function page() {
 
             <div className="w-16 h-1 bg-[#94cb3d] mb-8"></div>
 
-            <h1 className="text-7xl md:text-9xl font-black mb-4 leading-none tracking-tighter">
-              KHALID <br />
+            <h1 className="text-4xl md:text-7xl font-black mb-4 leading-none tracking-tighter">
+              Mr. Khalid <br />
               <span className="text-[#94cb3d]">Ansari</span>
             </h1>
 

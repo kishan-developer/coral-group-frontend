@@ -114,7 +114,7 @@ export default function CoralGreensBuildtech() {
             <div className="w-1 h-24 bg-[#94cb3d]"></div>
             <div>
               <p className="text-[#94cb3d] font-bold tracking-[0.3em] uppercase text-sm mb-2">Real Estate Excellence</p>
-              <h1 className="text-5xl md:text-7xl font-black mb-4 leading-none uppercase">
+              <h1 className="text-5xl md:text-6xl font-black mb-4 leading-none uppercase">
                 Coral Greens <br />
                 <span className='text-[#94cb3d]'>Buildtech</span>
               </h1>

@@ -228,7 +228,7 @@ const Page = () => {
                         <div className="w-1 h-24 bg-[#94cb3d]"></div>
                         <div>
                             <p className="text-[#94cb3d] font-bold tracking-[0.3em] uppercase text-sm mb-2">Coral-Group</p>
-                            <h1 className="text-4xl md:text-8xl font-black mb-4 leading-none uppercase">
+                            <h1 className="text-4xl md:text-7xl font-black mb-4 leading-none uppercase">
                                 Explore Our All  <br />
                                 <span className='text-[#94cb3d]'>Projects</span>
                             </h1>

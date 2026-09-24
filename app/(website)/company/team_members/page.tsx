@@ -219,7 +219,7 @@ const App = () => {
             <div className="w-1 h-24 bg-[#94cb3d]"></div>
             <div>
               <p className="text-[#94cb3d] font-bold tracking-[0.3em] uppercase text-sm mb-2">Coral-Group</p>
-              <h1 className="text-6xl md:text-8xl font-black mb-4 leading-none uppercase">Team <br /><span className='text-[#94cb3d]'>Members</span></h1>
+              <h1 className="text-6xl md:text-7xl font-black mb-4 leading-none uppercase">Team <br /><span className='text-[#94cb3d]'>Members</span></h1>
             </div>
           </div>
           <p className="max-w-2xl text-gray-300 text-xl leading-relaxed ml-10">
