@@ -58,19 +58,26 @@ export default function WebsiteLayout({
                 alt="logo"
                 className=""
               />
-              <p className="text-gray-500 mt-5">
+              <p className="text-white mt-5">
                 The Coral Group’s journey is a remarkable testament to vision, resilience, and an unwavering commitment to excellence. Established in 1860.
               </p>
             </div>
 
             <div>
               <h4 className="text-xl font-bold mb-4 text-[#94cb3d]">Quick Links</h4>
-              <ul className="space-y-2 text-gray-400">
+              <ul className="space-y-2 text-white">
                 <li className="hover:text-[#94cb3d] cursor-pointer">
                   <Link href="/company/about">
                     About Us
                   </Link>
                 </li>
+
+                <li className="hover:text-[#94cb3d] cursor-pointer">
+                  <Link href="/company/projects/">
+                    Projects
+                  </Link>
+                </li>
+
 
                 <li className="hover:text-[#94cb3d] cursor-pointer">
                   <Link href="/contact">
@@ -79,51 +86,70 @@ export default function WebsiteLayout({
                 </li>
 
                 <li className="hover:text-[#94cb3d] cursor-pointer">
-                  <Link href="/">
+                  <Link href="/company/team_members">
                     Team Members
                   </Link>
                 </li>
 
                 <li className="hover:text-[#94cb3d] cursor-pointer">
-                  <Link href="/">
+                  <Link href="/company/gallery">
                     Gallery
                   </Link>
                 </li>
 
+               
                 <li className="hover:text-[#94cb3d] cursor-pointer">
-                  <Link href="/">
-                    Events
-                  </Link>
-                </li>
-
-                <li className="hover:text-[#94cb3d] cursor-pointer">
-                  <Link href="/">
+                  <Link href="/blog">
                     Blogs
                   </Link>
                 </li>
 
-                <li className="hover:text-[#94cb3d] cursor-pointer">
+                {/* <li className="hover:text-[#94cb3d] cursor-pointer">
                   <Link href="/">
                     Careers
-                  </Link>
-                </li>
-
-                <li className="hover:text-[#94cb3d] cursor-pointer">
-                  <Link href="/">
-                    Projects
-                  </Link>
-                </li>
+                  </Link> 
+                </li> */}
 
               </ul>
             </div>
 
             <div>
               <h4 className="text-xl font-bold mb-4 text-[#94cb3d]">Verticals</h4>
-              <ul className="space-y-2 text-gray-400">
-                <li>CoralGreens Buildtech</li>
-                <li>Coral Fashion Emporio</li>
-                <li>Coral Hotels and Resorts</li>
-                <li>Coral Exports</li>
+              <ul className="space-y-2 text-white">
+                
+                <li className="hover:text-[#94cb3d] cursor-pointer">
+                  <Link href="/verticals/coral_greens_buildtech">
+                    Coral Greens Buildtech
+                  </Link>
+                </li>
+
+                <li className="hover:text-[#94cb3d] cursor-pointer">
+                  <Link href="/verticals/coral_fashion_emporio/">
+                    Coral Fashion Emporio
+                  </Link>
+                </li>
+
+
+                <li className="hover:text-[#94cb3d] cursor-pointer">
+                  <Link href="/verticals/coral_exports/">
+                    Coral Exports
+                  </Link>
+                </li>
+
+                <li className="hover:text-[#94cb3d] cursor-pointer">
+                  <Link href="/verticals/coral_hotels_and_resorts/">
+                    Coral Hotels and Resorts
+                  </Link>
+                </li>
+
+                <li className="hover:text-[#94cb3d] cursor-pointer">
+                  <Link href="/verticals/coral_foundation/">
+                    Coral Foundation
+                  </Link>
+                </li>
+
+               
+              
               </ul>
             </div>
 
@@ -169,7 +195,7 @@ export default function WebsiteLayout({
           <div className="text-start text-gray-600 mt-12 pt-6 border-t border-gray-800 flex items-center justify-between lg:px-30 px-10 ">
             <Link href={"https://www.linkedin.com/in/kishan-kumar-ray-372972234/"} target="_blank">
 
-              <p className="hover:text-[#94cb3d] transition-colors  w-full text-center">
+              <p className="hover:text-[#94cb3d] transition-colors  w-full text-center text-white">
                 © {new Date().getFullYear()} Coral Group. Developed By Kishan [ Full Stack Developer ]
               </p>
             </Link>

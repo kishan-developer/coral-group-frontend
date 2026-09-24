@@ -161,7 +161,7 @@ const Page = () => {
                                 Our <br />
                                 <span className='text-[#94cb3d]'>Gallery</span>
                             </h1>
-                        </div>
+                        </div> 
                     </div>
                     <p className="max-w-2xl text-gray-300 text-xl leading-relaxed ml-10">
                         Explore the visual journey of Coral Group's landmark projects, corporate culture, and technical brilliance.
@@ -375,7 +375,7 @@ const Page = () => {
                             {/* AFTER */}
                             <div className="absolute inset-0">
                                 <Image
-                                    src="/New_Banner_Images/CAM_1_LIFT_LOBBY_FINAL.jpg"
+                                    src="https://res.cloudinary.com/drmpv5vne/image/upload/v1790145208/CAM_3_FINAL_3_kqjmp5.jpg"
                                     alt="After"
                                     fill
                                     className="object-cover"
@@ -388,7 +388,7 @@ const Page = () => {
                                 style={{ width: `${beforeAfterValue}%`, borderRight: `3px solid ${BrandColor}` }}
                             >
                                 <Image
-                                    src="/slider/bg2.jpg"
+                                    src="https://res.cloudinary.com/drmpv5vne/image/upload/v1790251779/site_oovnfz.jpg"
                                     alt="Before"
                                     fill
                                     className="object-cover brightness-50"

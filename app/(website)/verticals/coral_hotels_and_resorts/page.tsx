@@ -107,7 +107,7 @@ export default function HotelsPage() {
   }, [lightboxIndex]);
 
 
-  
+
   return (
     <div className="bg-[#0a0a0a] text-white min-h-screen font-sans selection:bg-[#94cb3d] selection:text-black pt-20">
 
@@ -326,12 +326,10 @@ export default function HotelsPage() {
                 <p className="text-xl font-bold opacity-70 tracking-tight uppercase">Experience luxury hospitality at its finest.</p>
               </div>
               <div className="flex flex-col gap-4">
-                <button className="px-12 py-6 bg-black text-white rounded-full font-black text-xl hover:scale-105 transition-transform flex items-center gap-4">
-                  <Phone size={24} /> CALL NOW
-                </button>
-                <button className="px-12 py-6 bg-white/20 backdrop-blur-md border border-black/10 text-black rounded-full font-black text-xl hover:bg-black hover:text-[#94cb3d] transition-all flex items-center gap-4">
+                
+                <a href="https://www.sandsofkashi.com/booking" className="px-12 py-6 bg-white/20 backdrop-blur-md border border-black/10 text-black rounded-full font-black text-xl hover:bg-black hover:text-[#94cb3d] transition-all flex items-center gap-4">
                   <Mail size={24} /> SEND INQUIRY
-                </button>
+                </a>
               </div>
             </div>
           </div>
