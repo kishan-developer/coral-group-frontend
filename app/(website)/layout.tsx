@@ -52,7 +52,7 @@ export default function WebsiteLayout({
             <div>
               <img
                 // src="/Coral-Group-Logo.png"
-                src="/Coral_3.png"
+                src="https://res.cloudinary.com/drmpv5vne/image/upload/v1790250564/Coral_4-02_jhwyfz.png"
                 width={300}
                 height={100}
                 alt="logo"

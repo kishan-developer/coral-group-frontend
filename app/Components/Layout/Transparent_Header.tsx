@@ -146,7 +146,7 @@ export default function Transparent_Header() {
                         <div className="p-2 flex items-center justify-center lg:w-[80%] w-full h-full ">
                             <img
                                 // src="/Coral-Group-Logo.png"
-                                src="/Coral_3.png"
+                                src="https://res.cloudinary.com/drmpv5vne/image/upload/v1790250564/Coral_4-02_jhwyfz.png"
                                 alt="logo"
                                 className="lg:w-[80%] md:w-[80%] w-[70%] h-auto  object-contain  "
                             />
@@ -168,7 +168,6 @@ export default function Transparent_Header() {
                                 <Expand className="w-5 h-5" />
                             )}
                         </button>
-                       
                     </div>
 
                     {/* Mobile Menu Button */}
