@@ -109,18 +109,19 @@ export default function HotelsPage() {
 
 
   return (
-    <div className="bg-[#0a0a0a] text-white min-h-screen font-sans selection:bg-[#94cb3d] selection:text-black pt-20">
+    <div className="bg-[#0a0a0a] text-white min-h-screen font-sans selection:bg-[#94cb3d] selection:text-black ">
 
       {/* 1. LUXURY HERO */}
-      <section className="relative h-[80vh] flex items-center overflow-hidden border-b border-white/5">
+      <section className="relative h-[100vh] flex items-center overflow-hidden border-b border-white/5">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://res.cloudinary.com/drmpv5vne/image/upload/v1790145766/DSC_0358_ojo7nx.jpg"
-            className="w-full h-full object-cover transition-all duration-1000 scale-105"
-            alt="Coral Hotels & Resorts"
+            src="/Office/AMN_4991.jpeg"
+            className="w-full h-full object-cover scale-105 opacity-50"
+            alt="Office"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-[#0a0a0a] via-[#0a0a0a]/60 to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-black via-black/60 to-transparent"></div>
         </div>
+
 
         <div className="container mx-auto px-6 relative z-10">
           <motion.div
@@ -182,7 +183,7 @@ export default function HotelsPage() {
       <section className="py-32 bg-[#0f0f0f] border-b border-white/5">
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
@@ -326,7 +327,7 @@ export default function HotelsPage() {
                 <p className="text-xl font-bold opacity-70 tracking-tight uppercase">Experience luxury hospitality at its finest.</p>
               </div>
               <div className="flex flex-col gap-4">
-                
+
                 <a href="https://www.sandsofkashi.com/booking" className="px-12 py-6 bg-white/20 backdrop-blur-md border border-black/10 text-black rounded-full font-black text-xl hover:bg-black hover:text-[#94cb3d] transition-all flex items-center gap-4">
                   <Mail size={24} /> SEND INQUIRY
                 </a>
