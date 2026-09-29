@@ -2,6 +2,7 @@
 
 import { motion, Variants } from "framer-motion";
 import { ArrowUpRight, MapPin } from "lucide-react";
+import Link from "next/link";
 
 interface Project {
   id: string;
@@ -87,7 +88,7 @@ export default function FeaturedProjects() {
 
       {/* GRID BACKGROUND */}
       <div
-        className="absolute inset-0 opacity-[0.07]"
+        className="absolute inset-0 z-50 opacity-[0.07] pointer-events-none"
         style={{
           backgroundImage:
             "linear-gradient(to right, #ffffff1a 1px, transparent 1px), linear-gradient(to bottom, #ffffff1a 1px, transparent 1px)",
@@ -113,13 +114,13 @@ export default function FeaturedProjects() {
             </h2>
           </div>
 
-          <a
+          <Link
             href="/company/projects"
             className="mt-6 lg:mt-0 inline-flex items-center gap-2 text-sm tracking-wide text-[#94cb3d] hover:gap-4 transition-all"
           >
             View All Projects
             <ArrowUpRight size={16} />
-          </a>
+          </Link>
         </motion.div>
 
         {/* GRID */}

@@ -27,7 +27,7 @@ export default function page() {
                 <LogoSlider />
             </div>
 
-            <div className="sticky top-0 z-20 w-full h-screen ">
+            <div className="sticky top-0 z-20 w-full">
                 <AboutCoralGroupSection />
             </div>
 

@@ -21,6 +21,7 @@ interface Vertical {
   featured?: boolean;
   hasBrochure?: boolean;
   brochureUrl?: string;
+  url?: string;
 }
 
 const verticals: Vertical[] = [
@@ -31,6 +32,7 @@ const verticals: Vertical[] = [
       "For more than 15 years, CoralGreens Buildtech Pvt. Ltd. has been a pioneering force in transforming the landscape of Varanasi through innovative and meticulously crafted real estate solutions. ",
     icon: <Building2 size={26} />,
     featured: true,
+    url: "/verticals/coral_greens_buildtech/",
   },
   {
     id: "02",
@@ -38,6 +40,7 @@ const verticals: Vertical[] = [
     description:
       "CoralFashion Emporio Pvt. Ltd. carries forward a rich legacy of over 165 years in the textile industry, rooted in the timeless heritage of Varanasi. ",
     icon: <Landmark size={26} />,
+    url: "/verticals/coral_fashion_emporio/",
   },
   {
     id: "03",
@@ -45,6 +48,7 @@ const verticals: Vertical[] = [
     description:
       "Coral Exports is a trusted name in the international trade of premium sarees, fabrics, home furnishings, and decor items.",
     icon: <Ship size={26} />,
+    url: "/verticals/coral_exports/",
   },
   {
     id: "04",
@@ -52,6 +56,7 @@ const verticals: Vertical[] = [
     description:
       "Coral Hotels and Resorts stands at the intersection of luxury and tradition, dedicated to deliver a unique blend of remarkable hospitality and authentic local experiences. ",
     icon: <Hotel size={26} />,
+    url: "/verticals/coral_hotels_and_resorts/",
   },
   {
     id: "05",
@@ -59,6 +64,7 @@ const verticals: Vertical[] = [
     description:
       "Coral Interio is a premier name in the world of interior design and furnishing, renowned for its exquisite craftsmanship and innovative designs. ",
     icon: <Building2 size={26} />,
+    url: "/verticals/coral_interio/",
     hasBrochure: true,
     // brochureUrl: "CORAL_INTERIO_BROCHURE.pdf",
   },
@@ -68,6 +74,7 @@ const verticals: Vertical[] = [
     description:
       "Coral Foundation is a non-profit organization dedicated to empowering underprivileged communities through education, healthcare, and sustainable development initiatives.",
     icon: <Building2 size={26} />,
+    url: "/verticals/coral_foundation/",
     hasBrochure: true,
     // brochureUrl: "Coral_Foundation_Brochure.pdf",
   },
@@ -185,15 +192,20 @@ export default function BusinessVerticals(){
               </p>
 
               <div className="mt-5 flex gap-3">
-                <button className="cursor-pointer text-[#94cb3d] border-b-2 border-[#94cb3d]">
+                {/* <button className="cursor-pointer text-[#94cb3d] border-b-2 border-[#94cb3d]">
                   <Link href="/verticals">Read More</Link>
-                </button>
+                </button> */}
                 {item.hasBrochure && item.brochureUrl && (
                   <button
                     onClick={() => handleDownloadBrochure(item.brochureUrl!, item.title)}
                     className="cursor-pointer text-[#94cb3d] border-b-2 border-[#94cb3d] flex items-center gap-2"
                   >
                     <Download size={14} /> Brochure
+                  </button>
+                )}
+                {item.url && (
+                  <button className="cursor-pointer text-[#94cb3d] border-b-2 border-[#94cb3d]">
+                    <Link href={item.url}>Read More</Link>
                   </button>
                 )}
               </div>

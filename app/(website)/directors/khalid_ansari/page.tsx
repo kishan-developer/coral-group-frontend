@@ -195,9 +195,6 @@ export default function page() {
               <Link href="https://www.facebook.com/khalidunplugged" target="_blank" >
                 <Facebook size={50} />
               </Link>
-
-              
-
             </div>
 
           </div>

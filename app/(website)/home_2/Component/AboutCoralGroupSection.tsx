@@ -10,7 +10,7 @@ const AboutCoralGroupSection = () => {
 
       {/* GRID BACKGROUND */}
       <div
-        className="absolute inset-0 opacity-[0.07]"
+        className="absolute inset-0 z-50 opacity-[0.07] pointer-events-none"
         style={{
           backgroundImage:
             "linear-gradient(to right, #ffffff1a 1px, transparent 1px), linear-gradient(to bottom, #ffffff1a 1px, transparent 1px)",
@@ -35,14 +35,13 @@ const AboutCoralGroupSection = () => {
             </p>
 
             <ul>
-              {/* <li>Founded in 1860 with a strong vision and enduring values</li> */}
+             
               <li>Diversified industrial presence</li>
               <li>Innovation and quality driven</li>
-              {/* <li>Committed to sustainability and community development</li> */}
+            
               <li>Focused on long-term growth and societal impact</li>
             </ul>
           </div>
-
 
           {/* stats */}
           <div className="mt-14 grid grid-cols-3 gap-10 max-w-lg">
@@ -51,30 +50,12 @@ const AboutCoralGroupSection = () => {
             <Stat value="50K+" label="FAMILIES" />
           </div>
 
-
-
           {/* Decorative Line */}
-          {/* <div className="mt-12 w-20 h-[1px] bg-[#94cb3d]" /> */}
-          <button className="mt-5 cursor-pointer text-[#94cb3d] border-b-2 border-[#94cb3d] "><Link href="about">Read More</Link></button>
-          {/* <div className="mt-12 w-20 h-[1px] bg-[#94cb3d]" /> */}
+          <Link href="/company/about/" className="mt-5 inline-block cursor-pointer text-[#94cb3d] border-b-2 border-[#94cb3d] hover:border-[#94cb3d]/60 transition-colors">Read More</Link>
         </div>
 
         {/* RIGHT IMAGE */}
         <div className="relative">
-
-          {/* Gold Frame */}
-          {/* <div className="absolute inset-0 border border-[#94cb3d]/60 translate-x-4 translate-y-4 z-0" /> */}
-
-          {/* <div className="relative z-10 overflow-hidden">
-            <Image
-              src="/property/SK3.jpg" // replace with your image
-              alt="Coral Group Building"
-              width={600}
-              height={800}
-              className="object-cover "
-              priority
-            />
-          </div> */}
 
           <iframe className=" z-20 w-full h-96" src="https://www.youtube.com/embed/gVp5j4uRfMc?si=_01YlM2l6qieqKUJ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  ></iframe>
         </div>
